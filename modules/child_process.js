@@ -7,4 +7,4 @@ let cb = function(err, stdout, sterr) {
     }
     console.log(stdout);
 }
-exec("git add .; git commit -m 'adentrándonos en en los modulos de node'", cb)
+exec("git push origin main", cb)
